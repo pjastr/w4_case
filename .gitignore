@@ -1,0 +1,12 @@
+# virtual environment
+.venv/
+
+# Python / pytest caches
+__pycache__/
+.pytest_cache/
+
+# test output (screenshots of failed tests)
+reports/
+
+# PyCharm settings
+.idea/

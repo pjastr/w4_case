@@ -1,0 +1,11 @@
+[project]
+name = "w4-case"
+version = "1.0.0"
+description = "Lecture 4 – Selenium WebDriver examples as pytest tests"
+requires-python = ">=3.10"
+dependencies = ["selenium==4.49.0", "pytest==9.1.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]          # only tests/ is collected (not examples/)
+pythonpath = ["src"]           # `import webtests` works without installing
+addopts = "-ra"                # short summary of skipped/failed tests
